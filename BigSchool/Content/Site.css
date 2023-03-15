@@ -28,3 +28,34 @@ textarea {
     background-color: #777;
     border-color: #fff
 }
+
+.navbar-inverse {
+    background-color: #159b83;
+    border-color: #fcf8e3;
+}
+    .navbar-inverse .navbar-nar > li > a {
+        color: #fcf8e3;
+    }
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+/*Course layout*/
+.course{
+    list-style: none;
+}
+.course > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+    .course > li .date {
+        text-align: center;
+        background-color: #159b83;
+        color: #fcf8e3;
+        width: 60px;
+        border-radius: 8px;
+    }
+    .course >li > .details{
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }

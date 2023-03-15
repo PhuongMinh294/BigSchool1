@@ -187,16 +187,22 @@
     <Compile Include="Migrations\202303081618233_PopulateCategoryTable.designer.cs">
       <DependentUpon>202303081618233_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202303150333370_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202303150333370_AddNameColumnToApplicationUser.designer.cs">
+      <DependentUpon>202303150333370_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\ApplicationUser.cs.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
+    <Compile Include="ViewModels\FutureDate.cs" />
+    <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -281,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202303081618233_PopulateCategoryTable.resx">
       <DependentUpon>202303081618233_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303150333370_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202303150333370_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
